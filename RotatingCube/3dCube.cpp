@@ -2,7 +2,8 @@
 // Project     : Render 3D Cube
 // Author      : JD
 // Version     : 1.0
-// Run         : g++ 3dCube.cpp -o 3dCube -lfreeglut -lopengl32 -lglu32
+// Run         : g++ 3dCube.cpp -o 3dCube -lfreeglut -lopengl32 -lglu32 (for windows)
+//               g++ 3dCube.cpp -o 3dCube -lGL -lGLU -lglut (for mac/Linux)
 
 // Description : Displays a rotating 3D cube with colored faces in OpenGL.
 //               Each face color is randomized on program start.
